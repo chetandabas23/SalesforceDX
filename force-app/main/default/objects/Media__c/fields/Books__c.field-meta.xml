@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Books__c</fullName>
+    <externalId>false</externalId>
+    <label>Books</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Medias__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Children Fiction</fullName>
+                <default>false</default>
+                <label>Children Fiction</label>
+            </value>
+            <value>
+                <fullName>Fantasy</fullName>
+                <default>false</default>
+                <label>Fantasy</label>
+            </value>
+            <value>
+                <fullName>Thriller</fullName>
+                <default>false</default>
+                <label>Thriller</label>
+            </value>
+            <value>
+                <fullName>Comedy</fullName>
+                <default>false</default>
+                <label>Comedy</label>
+            </value>
+            <value>
+                <fullName>Self Help</fullName>
+                <default>false</default>
+                <label>Self Help</label>
+            </value>
+            <value>
+                <fullName>Management</fullName>
+                <default>false</default>
+                <label>Management</label>
+            </value>
+            <value>
+                <fullName>Spiritual</fullName>
+                <default>false</default>
+                <label>Spiritual</label>
+            </value>
+            <value>
+                <fullName>Biographies</fullName>
+                <default>false</default>
+                <label>Biographies</label>
+            </value>
+            <value>
+                <fullName>Inspirational</fullName>
+                <default>false</default>
+                <label>Inspirational</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>FIction</controllingFieldValue>
+            <valueName>Children Fiction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIction</controllingFieldValue>
+            <valueName>Fantasy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIction</controllingFieldValue>
+            <valueName>Thriller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FIction</controllingFieldValue>
+            <valueName>Comedy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Fiction</controllingFieldValue>
+            <valueName>Self Help</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Fiction</controllingFieldValue>
+            <valueName>Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Fiction</controllingFieldValue>
+            <valueName>Spiritual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Fiction</controllingFieldValue>
+            <valueName>Biographies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Fiction</controllingFieldValue>
+            <valueName>Inspirational</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

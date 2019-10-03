@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subjects__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(  StudentID__r.Subjects__c  , &quot;ACA&quot;), &quot;ACA&quot;, NULL)  + BR() +
+IF(INCLUDES(  StudentID__r.Subjects__c  , &quot;TOC&quot;), &quot;TOC&quot;, NULL) + BR() +
+IF(INCLUDES(  StudentID__r.Subjects__c  , &quot;CN&quot;), &quot;CN&quot;, NULL) + BR() +
+IF(INCLUDES(  StudentID__r.Subjects__c  , &quot;BE&quot;), &quot;BE&quot;, NULL) + BR() +
+IF(INCLUDES(  StudentID__r.Subjects__c  , &quot;BME&quot;), &quot;BME&quot;, NULL) + BR() +
+IF(INCLUDES(  StudentID__r.Subjects__c  , &quot;JAVA&quot;), &quot;JAVA&quot;, NULL) + BR() +
+IF(INCLUDES(  StudentID__r.Subjects__c  , &quot;OOPS&quot;), &quot;OOPS&quot;, NULL)</formula>
+    <label>Subjects</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

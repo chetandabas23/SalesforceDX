@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_Media_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>Media__r.Total_Media__c  -  Media__r.Media_Issued__c  = 0</errorConditionFormula>
+    <errorDisplayField>Media__c</errorDisplayField>
+    <errorMessage>Media Not Available Try another</errorMessage>
+</ValidationRule>

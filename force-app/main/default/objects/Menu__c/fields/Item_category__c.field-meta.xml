@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item_category__c</fullName>
+    <externalId>false</externalId>
+    <label>Item category</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>VEG</fullName>
+                <default>false</default>
+                <label>VEG</label>
+            </value>
+            <value>
+                <fullName>NON-VEG</fullName>
+                <default>false</default>
+                <label>NON-VEG</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
